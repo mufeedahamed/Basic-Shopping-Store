@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    padding: 2% 4% 0% 4%;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    width: 4%;
+    cursor: pointer;
+}
+
+nav{
+    flex:1;
+    padding-left: 10%;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+    margin-right: 10%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.row1 {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: center;
+
+}
+.col1{
+    align-items: center;
+    flex-basis: 100%;
+    color: white;
+}
+.col1 h1{
+    font-size: 75px;
+}
+.col1 p{
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 30px ;
+}
+
+
+
+.row2{
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    
+    
+}
+.card{
+    width: 230px;
+    height: 380px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+
+.card1{
+    background-image: url(img/1Luca-Faloni_Linen-Blazer_Olive_Green_1769_R_1024x1024@2x.jpg.webp);
+}
+.card2{
+    background-image: url(img/2Luca-Faloni_Linen-Blazer_Navy_Blue_1772_R_1024x1024@2x.jpg.webp);
+}
+.card3{
+    background-image: url(img/3Luca-Faloni_Linen-Blazer_Melange_Blue_1768_1024x1024@2x.jpg.webp);
+}
+.card4{
+    background-image: url(img/4Luca-Faloni_Linen-Blazer_HazelnutBrown_1769_R__3_1024x1024@2x.jpg.webp);
+}
+.card5{
+    background-image: url(img/5Luca-Faloni_Linen-Blazer_Sand_1775_R_1024x1024@2x.jpg.webp);
+}
+
+.card:hover{
+
+    transform: scale(120%)
+}
+
+h4 {
+    color: white;
+    text-shadow: 0 0 4px white;
+}
+
+.card p{
+    color: black;
+    text-shadow: 0 0 5px white;
+
+}
+
+body h2{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 1px white;
+    margin: 120px 0 100px 0;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+th, td{
+    color: white;
+    border: 0.5px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 250px;
+}
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: purple;
+}
+
+a:active{
+    color: white;
+}
+
+.lists{
+
+    color: white;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+li {
+    display: list-item;
+    list-style-position: inside;
+    line-height: 40px;
+  }
